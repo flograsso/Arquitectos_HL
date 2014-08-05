@@ -36,12 +36,21 @@ namespace Arquitectos_HL
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.components = new System.ComponentModel.Container();
+			this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+			((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+			this.SuspendLayout();
 			// 
 			// MainForm
 			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Text = "Arquitectos_HL";
+			this.ClientSize = new System.Drawing.Size(284, 262);
 			this.Name = "MainForm";
+			this.Text = "Arquitectos_HL";
+			((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.BindingSource bindingSource1;
 	}
 }
