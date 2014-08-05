@@ -38,8 +38,14 @@ namespace Arquitectos_HL
 		{
 			this.components = new System.ComponentModel.Container();
 			this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+			this.dataSet1 = new System.Data.DataSet();
 			((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
 			this.SuspendLayout();
+			// 
+			// dataSet1
+			// 
+			this.dataSet1.DataSetName = "NewDataSet";
 			// 
 			// MainForm
 			// 
@@ -49,8 +55,10 @@ namespace Arquitectos_HL
 			this.Name = "MainForm";
 			this.Text = "Arquitectos_HL";
 			((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
 			this.ResumeLayout(false);
 		}
+		private System.Data.DataSet dataSet1;
 		private System.Windows.Forms.BindingSource bindingSource1;
 	}
 }
